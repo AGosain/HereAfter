@@ -1,4 +1,4 @@
-﻿Log file open, 12/09/17 13:03:47
+﻿Log file open, 11/26/17 23:47:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GreyBox_Level1
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(925222047) SRandInit(925222048).
+LogInit: Display: RandInit(-201747767) SRandInit(-201747767).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.476327
+LogStats: Stats thread started at 0.168403
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -107,161 +107,1191 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: E:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.09-02.03.51:576][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.09-02.03.51:576][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.09-02.03.51:678][  0]LogInit: Computer: TOMMYSPC
-[2017.12.09-02.03.51:678][  0]LogInit: User: Tommy
-[2017.12.09-02.03.51:678][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.09-02.03.51:678][  0]LogInit: High frequency timer resolution =3.117779 MHz
-[2017.12.09-02.03.51:678][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2017.12.09-02.03.51:679][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.09-02.03.51:679][  0]LogMemory: Process Physical Memory: 277.06 MB used, 277.06 MB peak
-[2017.12.09-02.03.51:679][  0]LogMemory: Process Virtual Memory: 273.94 MB used, 273.94 MB peak
-[2017.12.09-02.03.51:679][  0]LogMemory: Physical Memory: 5843.93 MB used,  18605.22 MB free, 24449.15 MB total
-[2017.12.09-02.03.51:679][  0]LogMemory: Virtual Memory: 668.17 MB used,  18605.22 MB free, 134217728.00 MB total
-[2017.12.09-02.03.55:459][  0]LogInit: Using OS detected language (en-US).
-[2017.12.09-02.03.55:459][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.09-02.03.55:913][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.09-02.04.05:871][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.09-02.04.05:910][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
-[2017.12.09-02.04.05:910][  0]LogD3D11RHI:       8168/0/12224 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.12.09-02.04.05:919][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.12.09-02.04.05:919][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2017.12.09-02.04.05:923][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.09-02.04.05:923][  0]LogD3D11RHI:       0/0/12224 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.09-02.04.05:923][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.09-02.04.05:930][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.09-02.04.05:930][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.09-02.04.05:931][  0]LogWindows: EnumDisplayDevices:
-[2017.12.09-02.04.05:931][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
-[2017.12.09-02.04.05:931][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.12.09-02.04.05:931][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.12.09-02.04.05:931][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.12.09-02.04.05:932][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.12.09-02.04.05:932][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.12.09-02.04.05:932][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2017.12.09-02.04.05:932][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2017.12.09-02.04.05:932][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.12.09-02.04.05:932][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
-[2017.12.09-02.04.05:932][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
-[2017.12.09-02.04.05:932][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.8.2 (internal:22.19.673.0, unified:22.19.673.0)
-[2017.12.09-02.04.05:932][  0]LogD3D11RHI:      Driver Date: 8-22-2017
-[2017.12.09-02.04.05:932][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.12.09-02.04.05:991][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.09-02.04.06:004][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.12.09-02.04.06:006][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (A:/Documents/GitHub/HereAfter/GreyBox_Level1/Intermediate/Shaders/WorkingDirectory/6244/).
-[2017.12.09-02.04.06:007][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tommy/AppData/Local/Temp/UnrealShaderWorkingDir/3EA98CE54F8AFA39DCF0E69BE8C94421/'.
-[2017.12.09-02.04.06:007][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.09-02.04.11:840][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.09-02.04.12:114][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.09-02.04.12:379][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.09-02.04.12:626][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.09-02.04.12:915][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.09-02.04.13:192][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.09-02.04.13:447][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.09-02.04.13:688][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.09-02.04.13:935][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.09-02.04.14:180][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.09-02.04.14:441][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.09-02.04.14:685][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.09-02.04.14:965][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.09-02.04.15:233][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.09-02.04.15:759][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.09-02.04.15:759][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.09-02.04.16:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.09-02.04.16:311][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.09-02.04.16:787][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.09-02.04.16:959][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.09-02.04.17:219][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.09-02.04.17:476][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.09-02.04.17:727][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.09-02.04.17:989][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.09-02.04.17:989][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.09-02.04.22:130][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.09-02.04.22:696][  0]LogDerivedDataCache: Loaded boot cache 0.56s 93MB C:/Users/Tommy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.09-02.04.22:696][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tommy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.12.09-02.04.22:697][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Documents/GitHub/HereAfter/GreyBox_Level1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.09-02.04.22:697][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.09-02.04.22:697][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Documents/GitHub/HereAfter/GreyBox_Level1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.09-02.04.22:697][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.09-02.04.22:782][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.09-02.04.22:798][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tommy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.09-02.04.22:817][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.09-02.04.22:818][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.09-02.04.22:876][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.09-02.04.22:876][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.09-02.04.30:110][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
-[2017.12.09-02.04.30:539][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.09-02.04.33:297][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.09-02.04.33:515][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.09-02.04.33:515][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.09-02.04.33:515][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.09-02.04.33:515][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.09-02.04.33:515][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.09-02.04.33:518][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.12.09-02.04.35:254][  0]LogNetVersion: GreyBox_Level1 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2619429060)
-[2017.12.09-02.04.36:602][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.146856 seconds
-[2017.12.09-02.04.36:621][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.12.09-02.04.36:621][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.12.09-02.04.36:621][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.09-02.04.37:177][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.09-02.05.01:392][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.09-02.05.01:552][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.09-02.05.05:301][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.09-02.05.07:436][  0]SourceControl: Source control is disabled
-[2017.12.09-02.05.07:436][  0]SourceControl: Source control is disabled
-[2017.12.09-02.05.07:724][  0]SourceControl: Source control is disabled
-[2017.12.09-02.05.07:971][  0]SourceControl: Source control is disabled
-[2017.12.09-02.05.11:272][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.09-02.05.12:349][  0]LogOcInput: OculusInput pre-init called
-[2017.12.09-02.05.13:596][  0]LogEngine: Initializing Engine...
-[2017.12.09-02.05.13:674][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2017.12.09-02.05.14:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.09-02.05.14:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.09-02.05.15:344][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.09-02.05.15:364][  0]LogInit: XAudio2 using '2 - 2460G4 (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.09-02.05.15:379][  0]LogInit: FAudioDevice initialized.
-[2017.12.09-02.05.15:487][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/Tommy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.09-02.05.15:500][  0]LogInit: Texture streaming: Enabled
-[2017.12.09-02.05.16:062][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.09-02.05.17:596][  0]LogInit: Transaction tracking system initialized
-[2017.12.09-02.05.19:468][  0]BlueprintLog: New page: Editor Load
-[2017.12.09-02.05.27:486][  0]LocalizationService: Localization service is disabled
-[2017.12.09-02.05.32:689][  0]LogConsoleResponse: Display: 
-[2017.12.09-02.05.35:141][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.09-02.05.35:142][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.09-02.05.35:142][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.09-02.05.36:146][  0]LogFileCache: Scanning file cache for directory 'A:/Documents/GitHub/HereAfter/GreyBox_Level1/Content/' took 0.02s
-[2017.12.09-02.05.43:242][  0]SourceControl: Source control is disabled
-[2017.12.09-02.05.43:243][  0]Cmd: MAP LOAD FILE="A:/Documents/GitHub/HereAfter/GreyBox_Level1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.09-02.05.43:270][  0]LightingResults: New page: Lighting Build
-[2017.12.09-02.05.43:470][  0]MapCheck: New page: Map Check
-[2017.12.09-02.05.43:470][  0]LightingResults: New page: Lighting Build
-[2017.12.09-02.05.45:826][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.09-02.05.45:888][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.09-02.05.45:920][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.09-02.05.46:057][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 136.007ms to complete.
-[2017.12.09-02.05.46:057][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.814
-[2017.12.09-02.05.46:486][  0]LogCollectionManager: Loaded 0 collections in 0.001724 seconds
-[2017.12.09-02.05.46:732][  0]LogFileCache: Scanning file cache for directory 'A:/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/Collections/' took 0.01s
-[2017.12.09-02.05.46:732][  0]LogFileCache: Scanning file cache for directory 'A:/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Developers/Tommy/Collections/' took 0.01s
-[2017.12.09-02.05.46:732][  0]LogFileCache: Scanning file cache for directory 'A:/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Collections/' took 0.01s
-[2017.12.09-02.05.46:732][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.09-02.05.46:745][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2386 classes and 500 folders.
-[2017.12.09-02.05.47:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
-[2017.12.09-02.05.48:196][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.12.09-02.05.48:452][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.12.09-02.05.48:543][  0]LogSlate: Took 0.051693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.09-02.05.48:557][  0]LogSlate: Took 0.011695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.09-02.05.48:580][  0]LogSlate: Took 0.016881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.09-02.05.49:045][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.12.09-02.05.49:578][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0046 seconds. Added 1 classes and 2 folders.
-[2017.12.09-02.05.49:579][  0]LogLoad: (Engine Initialization) Total time: 149.43 seconds
-[2017.12.09-02.05.49:579][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.09-02.05.49:579][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.12.09-02.05.49:579][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.12.09-02.05.49:973][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.26-12.47.02:837][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.26-12.47.02:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.26-12.47.02:909][  0]LogInit: Computer: DESKTOP-5B7AHPE
+[2017.11.26-12.47.02:909][  0]LogInit: User: AshishGosain
+[2017.11.26-12.47.02:909][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.26-12.47.02:909][  0]LogInit: High frequency timer resolution =3.125009 MHz
+[2017.11.26-12.47.02:909][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.26-12.47.02:909][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.26-12.47.02:909][  0]LogMemory: Process Physical Memory: 279.21 MB used, 279.21 MB peak
+[2017.11.26-12.47.02:909][  0]LogMemory: Process Virtual Memory: 282.11 MB used, 282.11 MB peak
+[2017.11.26-12.47.02:909][  0]LogMemory: Physical Memory: 7862.18 MB used,  8449.82 MB free, 16312.00 MB total
+[2017.11.26-12.47.02:909][  0]LogMemory: Virtual Memory: 709.52 MB used,  8449.82 MB free, 134217728.00 MB total
+[2017.11.26-12.47.03:507][  0]LogInit: Using OS detected language (en-US).
+[2017.11.26-12.47.03:507][  0]LogInit: Using OS detected locale (en-AU).
+[2017.11.26-12.47.03:711][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.26-12.47.10:542][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.26-12.47.10:594][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.11.26-12.47.10:594][  0]LogD3D11RHI:       6061/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.26-12.47.10:595][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.26-12.47.10:595][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.26-12.47.10:595][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.26-12.47.10:601][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.26-12.47.10:601][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.26-12.47.10:601][  0]LogWindows: EnumDisplayDevices:
+[2017.11.26-12.47.10:601][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.11.26-12.47.10:601][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.11.26-12.47.10:601][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.11.26-12.47.10:601][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.11.26-12.47.10:602][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.26-12.47.10:602][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.11.26-12.47.10:602][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.26-12.47.10:602][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.26-12.47.10:602][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.26-12.47.10:624][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.26-12.47.10:760][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.26-12.47.10:810][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Intermediate/Shaders/WorkingDirectory/5140/).
+[2017.11.26-12.47.10:810][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ashish Gosain/AppData/Local/Temp/UnrealShaderWorkingDir/CC6FF4A7484A8A79614D15BD07CCE72F/'.
+[2017.11.26-12.47.10:810][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.26-12.47.15:810][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.26-12.47.15:873][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.26-12.47.15:933][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.26-12.47.15:995][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.26-12.47.16:092][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.26-12.47.16:157][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.26-12.47.16:218][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.26-12.47.16:275][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.26-12.47.16:334][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.26-12.47.16:408][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.26-12.47.16:471][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.26-12.47.16:523][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.26-12.47.16:574][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.26-12.47.16:628][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.26-12.47.16:681][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.26-12.47.16:779][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.26-12.47.16:779][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.26-12.47.16:824][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.26-12.47.16:947][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.26-12.47.17:001][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.26-12.47.17:056][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.26-12.47.17:116][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.26-12.47.17:173][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.26-12.47.17:228][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.26-12.47.17:228][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.26-12.47.18:057][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.26-12.47.18:838][  0]LogDerivedDataCache: Loaded boot cache 0.78s 93MB C:/Users/Ashish Gosain/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.26-12.47.18:838][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ashish Gosain/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.26-12.47.18:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.26-12.47.18:838][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.26-12.47.18:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.26-12.47.18:838][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.26-12.47.18:906][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.26-12.47.18:918][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ashish Gosain/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.26-12.47.18:928][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.26-12.47.18:929][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.26-12.47.18:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.26-12.47.18:977][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.26-12.47.22:399][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.11.26-12.47.22:669][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.26-12.47.24:355][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.26-12.47.25:270][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.26-12.47.25:310][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.26-12.47.25:310][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.26-12.47.25:310][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.26-12.47.25:310][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.26-12.47.25:310][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.26-12.47.26:381][  0]LogNetVersion: GreyBox_Level1 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2619429060)
+[2017.11.26-12.47.27:000][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.049549 seconds
+[2017.11.26-12.47.27:006][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.26-12.47.27:006][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.26-12.47.27:006][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.26-12.47.27:085][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.26-12.47.44:670][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.26-12.47.44:716][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.26-12.47.45:847][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.26-12.47.46:365][  0]SourceControl: Source control is disabled
+[2017.11.26-12.47.46:365][  0]SourceControl: Source control is disabled
+[2017.11.26-12.47.46:423][  0]SourceControl: Source control is disabled
+[2017.11.26-12.47.46:488][  0]SourceControl: Source control is disabled
+[2017.11.26-12.47.47:541][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.26-12.47.47:834][  0]LogOcInput: OculusInput pre-init called
+[2017.11.26-12.47.48:272][  0]LogEngine: Initializing Engine...
+[2017.11.26-12.47.48:274][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.26-12.47.48:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.26-12.47.48:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.26-12.47.48:870][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.26-12.47.48:884][  0]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2017.11.26-12.47.48:900][  0]LogInit: FAudioDevice initialized.
+[2017.11.26-12.47.49:057][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/Ashish Gosain/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.26-12.47.49:071][  0]LogInit: Texture streaming: Enabled
+[2017.11.26-12.47.49:229][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.26-12.47.49:596][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.26-12.47.49:687][  0]LogInit: Transaction tracking system initialized
+[2017.11.26-12.47.51:088][  0]BlueprintLog: New page: Editor Load
+[2017.11.26-12.47.52:542][  0]LocalizationService: Localization service is disabled
+[2017.11.26-12.47.53:624][  0]LogConsoleResponse: Display: 
+[2017.11.26-12.47.57:723][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.26-12.47.57:723][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.26-12.47.57:724][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.26-12.47.57:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/' took 0.02s
+[2017.11.26-12.48.00:353][  0]SourceControl: Source control is disabled
+[2017.11.26-12.48.00:353][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.26-12.48.00:684][  0]LightingResults: New page: Lighting Build
+[2017.11.26-12.48.00:724][  0]MapCheck: New page: Map Check
+[2017.11.26-12.48.00:724][  0]LightingResults: New page: Lighting Build
+[2017.11.26-12.48.09:046][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.26-12.48.09:085][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.26-12.48.09:104][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.26-12.48.09:171][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.709ms to complete.
+[2017.11.26-12.48.09:171][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.818
+[2017.11.26-12.48.09:619][  0]LogCollectionManager: Loaded 0 collections in 0.001287 seconds
+[2017.11.26-12.48.09:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Collections/' took 0.01s
+[2017.11.26-12.48.09:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Developers/AshishGosain/Collections/' took 0.01s
+[2017.11.26-12.48.09:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Collections/' took 0.01s
+[2017.11.26-12.48.09:699][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.26-12.48.09:710][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2386 classes and 500 folders.
+[2017.11.26-12.48.09:774][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.26-12.48.13:886][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.26-12.48.13:982][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.26-12.48.14:081][  0]LogSlate: Took 0.074607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.26-12.48.14:102][  0]LogSlate: Took 0.017371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.26-12.48.14:131][  0]LogSlate: Took 0.025392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.26-12.48.15:333][  0]LogRenderer: Reallocating scene render targets to support 1916x924 Format 10 NumSamples 1 (Frame:1).
+[2017.11.26-12.48.15:709][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.26-12.48.15:710][  0]LogLoad: (Engine Initialization) Total time: 77.48 seconds
+[2017.11.26-12.48.15:710][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.26-12.48.15:710][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.26-12.48.15:710][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.26-12.48.15:739][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.26-12.48.15:976][  1]LogAssetRegistry: Asset discovery search completed in 53.5984 seconds
+[2017.11.26-12.48.15:978][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.26-12.48.15:978][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000105 seconds (updated 0 objects)
+[2017.11.26-12.48.35:457][ 17]LogSlate: Took 0.020171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.26-12.48.37:963][115]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.26-12.48.38:687][115]LogAIModule: Creating AISystem for world Greybox_1_v1
+[2017.11.26-12.48.38:725][115]Cmd: MAP LOAD FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.26-12.48.38:726][115]LightingResults: New page: Lighting Build
+[2017.11.26-12.48.38:726][115]LoadErrors: New page: Loading map: Greybox_1_v1.umap
+[2017.11.26-12.48.38:727][115]MapCheck: New page: Map Check
+[2017.11.26-12.48.38:727][115]LightingResults: New page: Lighting Build
+[2017.11.26-12.48.38:752][115]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.26-12.48.38:829][115]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.26-12.48.38:890][115]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.436ms to complete.
+[2017.11.26-12.48.38:890][115]LogFileHelpers: Loading map 'Greybox_1_v1' took 0.165
+[2017.11.26-12.59.10:122][555]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.11.26-12.59.34:437][939]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.26-12.59.34:554][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-12.59.34:555][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.26-12.59.34:555][939]PIE: New page: PIE session: Greybox_1_v1 (27 Nov 2017 10:59:34 am)
+[2017.11.26-12.59.34:555][939]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Greybox_1_v1
+[2017.11.26-12.59.34:587][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030766s)
+[2017.11.26-12.59.34:587][939]LogAIModule: Creating AISystem for world Greybox_1_v1
+[2017.11.26-12.59.34:588][939]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2017.11.26-12.59.34:588][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Greybox_1_v1.Greybox_1_v1 to /Game/Maps/UEDPIE_0_Greybox_1_v1.Greybox_1_v1 (0.032233s)
+[2017.11.26-12.59.34:631][939]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2017.11.26-12.59.34:641][939]LogInit: FAudioDevice initialized.
+[2017.11.26-12.59.34:686][939]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.26-12.59.34:691][939]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Greybox_1_v1.Greybox_1_v1 up for play (max tick rate 0) at 2017.11.26-23.59.34
+[2017.11.26-12.59.34:691][939]LogWorld: Bringing up level for play took: 0.003032
+[2017.11.26-12.59.34:731][939]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.26-12.59.34:731][939]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Greybox_1_v1 -0.761
+[2017.11.26-12.59.34:732][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-12.59.46:704][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-12.59.46:799][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-13.00.05:364][692]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.26-13.00.14:680][719]LogSavePackage: Save=260.35ms
+[2017.11.26-13.00.14:680][719]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_Auto1A58F266E44DB1796067B7ABF0ECD5D93.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto1.umap'
+[2017.11.26-13.00.14:683][719]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto1.umap
+[2017.11.26-13.00.14:690][719]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox_1_v1' took 0.303
+[2017.11.26-13.00.14:690][719]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.303
+[2017.11.26-13.09.13:376][203]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.26-13.10.15:509][606]LogSavePackage: Save=294.56ms
+[2017.11.26-13.10.15:509][606]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_Auto21B799E3B43EDF5DF1A6C4E8C8296DD4D.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto2.umap'
+[2017.11.26-13.10.15:512][606]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto2.umap
+[2017.11.26-13.10.15:514][606]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox_1_v1' took 0.334
+[2017.11.26-13.10.15:514][606]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.334
+[2017.11.26-13.16.42:985][996]Cmd: DUPLICATE
+[2017.11.26-13.16.42:985][996]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.16.51:035][857]Cmd: TRANSACTION UNDO
+[2017.11.26-13.16.51:035][857]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.16.51:047][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:047][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:047][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:060][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:060][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:060][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:060][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush5_3.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:061][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush7.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:061][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:061][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:062][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:062][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2017.11.26-13.16.51:062][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:015][381]Cmd: TRANSACTION UNDO
+[2017.11.26-13.16.57:015][381]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.16.57:027][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:027][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:028][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:041][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:041][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:041][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:041][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush5_3.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:042][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush7.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:042][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:042][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:043][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:043][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:043][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:422][409]Cmd: TRANSACTION UNDO
+[2017.11.26-13.16.57:422][409]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.16.57:440][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:440][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:440][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:454][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:454][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:454][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:454][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush5_3.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:455][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush7.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:455][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:455][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:456][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:456][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:456][409]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:768][425]Cmd: TRANSACTION UNDO
+[2017.11.26-13.16.57:768][425]LogEditorTransaction: Undo Duplicate Actors
+[2017.11.26-13.16.57:795][425]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:796][425]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:809][425]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:809][425]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2017.11.26-13.16.57:811][425]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:871][824]Cmd: TRANSACTION UNDO
+[2017.11.26-13.17.02:871][824]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.17.02:881][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:881][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:881][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:881][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:882][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:895][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:895][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:895][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:895][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:896][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:896][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush33.BrushComponent0) Component already registered.
+[2017.11.26-13.17.02:897][824]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:660][  0]Cmd: TRANSACTION UNDO
+[2017.11.26-13.18.13:660][  0]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.18.13:670][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:670][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:670][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:671][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:671][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:684][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:684][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:684][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:685][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:685][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:686][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush33.BrushComponent0) Component already registered.
+[2017.11.26-13.18.13:686][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.18.15:390][101]Cmd: DUPLICATE
+[2017.11.26-13.18.15:390][101]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.19.16:031][557]Cmd: DUPLICATE
+[2017.11.26-13.19.16:031][557]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.19.38:013][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.19.41:439][357]Cmd: TRANSACTION UNDO
+[2017.11.26-13.19.41:439][357]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.26-13.20.05:433][858]Cmd: MODE GRID=0
+[2017.11.26-13.20.08:974][237]Cmd: MODE GRID=1
+[2017.11.26-13.20.30:081][718]Cmd: DUPLICATE
+[2017.11.26-13.20.30:081][718]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.20.56:392][699]Cmd: DUPLICATE
+[2017.11.26-13.20.56:392][699]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.21.37:886][112]Cmd: MODE GRID=0
+[2017.11.26-13.21.41:935][548]Cmd: MODE GRID=1
+[2017.11.26-13.21.53:669][841]Cmd: TRANSACTION UNDO
+[2017.11.26-13.21.53:669][841]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.21.53:680][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:680][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:680][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:696][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:696][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:696][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:696][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:696][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:697][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:697][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:697][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-13.21.53:698][841]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush34.BrushComponent0) Component already registered.
+[2017.11.26-13.22.29:227][684]Cmd: MODE GRID=0
+[2017.11.26-13.22.49:320][843]Cmd: DUPLICATE
+[2017.11.26-13.22.49:320][843]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.23.04:972][470]Cmd: TRANSACTION UNDO
+[2017.11.26-13.23.04:972][470]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.23.06:196][554]Cmd: MODE GRID=1
+[2017.11.26-13.23.10:513][958]Cmd: TRANSACTION UNDO
+[2017.11.26-13.23.10:513][958]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.23.24:780][397]Cmd: DELETE
+[2017.11.26-13.23.24:780][397]Cmd: ACTOR DELETE
+[2017.11.26-13.23.24:798][397]LogEditorActor: Deleted Actor: Brush
+[2017.11.26-13.23.24:930][397]LogEditorActor: Deleted 1 Actors (0.150 secs)
+[2017.11.26-13.24.00:209][707]LogSavePackage: Save=325.80ms
+[2017.11.26-13.24.00:209][707]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_Auto343D6D41B405A0FF5FE50668A20B662E4.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto3.umap'
+[2017.11.26-13.24.00:211][707]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto3.umap
+[2017.11.26-13.24.00:216][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox_1_v1' took 0.366
+[2017.11.26-13.24.00:216][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.366
+[2017.11.26-13.24.23:395][271]Cmd: DELETE
+[2017.11.26-13.24.23:395][271]Cmd: ACTOR DELETE
+[2017.11.26-13.24.23:398][271]LogEditorActor: Deleted Actor: Brush
+[2017.11.26-13.24.23:492][271]LogEditorActor: Deleted 1 Actors (0.096 secs)
+[2017.11.26-13.24.29:866][866]Cmd: DUPLICATE
+[2017.11.26-13.24.29:866][866]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.24.40:024][897]Cmd: MODE GRID=0
+[2017.11.26-13.24.49:028][822]Cmd: TRANSACTION UNDO
+[2017.11.26-13.24.49:028][822]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.25.05:439][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.25.06:177][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.25.06:750][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.25.06:931][656]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.26-13.25.07:140][678]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.26-13.25.07:438][709]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Plane)
+[2017.11.26-13.25.07:736][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.25.07:805][746]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.26-13.25.51:689][658]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.26-13.27.11:779][263]LogSavePackage: Save=364.75ms
+[2017.11.26-13.27.11:779][263]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1F7707E6041196A7A96459D9F5B328AAD.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap'
+[2017.11.26-13.27.11:786][263]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap
+[2017.11.26-13.27.11:858][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox_1_v1_BuiltData" FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset" SILENT=true
+[2017.11.26-13.27.12:028][263]LogSavePackage: Save=139.59ms
+[2017.11.26-13.27.12:028][263]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltDataB7F42E8E447048A35D689F818722B2F8.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset'
+[2017.11.26-13.27.12:031][263]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset
+[2017.11.26-13.27.14:923][485]MapCheck: New page: Map Check
+[2017.11.26-13.27.14:978][485]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.26-13.27.14:978][485]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.26-13.27.16:359][485]LightingResults: New page: Lighting Build - 27 Nov 2017 11:27:16 am
+[2017.11.26-13.27.16:549][485]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.26-13.27.16:621][485]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.26-13.27.16:718][485]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.26-13.27.17:575][485]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.26-13.27.17:575][485]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5140
+[2017.11.26-13.27.24:949][485]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.26-13.27.24:961][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.26-13.27.24:961][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.26-13.27.24:961][485]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.26-13.27.24:961][485]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.26-13.27.24:961][485]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.26-13.27.26:492][485]LogEditorBuildUtils: Build time 0:11
+[2017.11.26-13.27.32:126][502]Job is a success!
+[2017.11.26-13.27.32:840][503]LightingResults: Error: PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.26-13.27.33:340][503]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.26-13.27.33:395][503]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.11.26-13.27.33:395][503]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 64X64)
+[2017.11.26-13.27.33:395][503]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 256X512)
+[2017.11.26-13.27.33:482][503]Lightmass on DESKTOP-5B7AHPE: 4.59 sec total, 216 ms importing, 37 ms setup, 361 ms photons, 3.53 sec processing, 0 ms extra exporting [607/607 mappings]. Threads: 14.1 sec total, 5.72 sec processing.
+[2017.11.26-13.27.33:586][503]LogStaticLightingSystem: Illumination: 16.8 sec (492 ms encoding lightmaps, 41 ms encoding shadowmaps)
+[2017.11.26-13.27.33:586][503]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.26-13.27.33:586][503]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 3 textures
+[2017.11.26-13.27.33:932][503]DumpUnbuiltLightIteractions
+[2017.11.26-13.27.33:932][503]Lights with unbuilt interactions: 0
+[2017.11.26-13.27.33:932][503]
+[2017.11.26-13.27.33:932][503]Primitives with unbuilt interactions: 0
+[2017.11.26-13.27.33:942][504]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.26-13.27.33:942][504]MapCheck: New page: Greybox_1_v1 - 27 Nov 2017 11:27:33 am
+[2017.11.26-13.27.34:101][504]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 158.337ms to complete.
+[2017.11.26-13.30.08:676][876]Cmd: DUPLICATE
+[2017.11.26-13.30.08:676][876]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.30.21:312][289]Cmd: TRANSACTION UNDO
+[2017.11.26-13.30.21:312][289]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.30.21:326][289]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2017.11.26-13.30.21:340][289]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.26-13.30.21:341][289]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.30.21:342][289]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.30.21:343][289]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-13.30.29:743][ 59]Cmd: TRANSACTION UNDO
+[2017.11.26-13.30.29:743][ 59]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.30.29:766][ 59]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.30.29:767][ 59]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.30.30:761][112]Cmd: TRANSACTION UNDO
+[2017.11.26-13.30.30:761][112]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-13.30.30:793][112]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2017.11.26-13.30.30:806][112]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.26-13.30.30:808][112]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.30.30:809][112]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.30.30:809][112]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-13.30.56:244][766]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.26-13.33.50:694][451]Cmd: TRANSACTION UNDO
+[2017.11.26-13.33.50:694][451]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.33.50:707][451]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2017.11.26-13.33.50:721][451]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.26-13.33.50:722][451]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.33.50:723][451]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.33.50:723][451]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-13.34.03:610][654]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.26-13.34.23:898][888]Cmd: TRANSACTION UNDO
+[2017.11.26-13.34.23:898][888]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.34.23:910][888]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.34.23:910][888]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.34.23:926][888]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.34.23:927][888]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.34.28:868][225]Cmd: TRANSACTION UNDO
+[2017.11.26-13.34.28:868][225]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.34.28:881][225]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.34.28:881][225]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.34.28:897][225]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.34.28:897][225]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.34.32:316][405]Cmd: TRANSACTION UNDO
+[2017.11.26-13.34.32:317][405]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.34.32:329][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.34.32:330][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.34.32:345][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.34.32:346][405]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.34.40:913][157]Cmd: TRANSACTION UNDO
+[2017.11.26-13.34.40:913][157]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.34.40:925][157]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.34.40:925][157]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.26-13.34.40:941][157]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.34.40:941][157]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.34.42:756][241]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush16)
+[2017.11.26-13.35.09:987][166]Cmd: TRANSACTION UNDO
+[2017.11.26-13.35.09:987][166]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.35.09:999][166]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2017.11.26-13.35.09:999][166]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.26-13.35.09:999][166]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2017.11.26-13.35.10:015][166]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.35.10:015][166]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.35.10:016][166]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush34.BrushComponent0) Component already registered.
+[2017.11.26-13.35.10:016][166]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2017.11.26-13.35.25:635][712]Cmd: TRANSACTION UNDO
+[2017.11.26-13.35.25:635][712]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.35.25:648][712]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-13.35.25:648][712]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2017.11.26-13.35.25:663][712]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.35.25:664][712]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.35.25:665][712]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-13.35.49:855][  7]Cmd: TRANSACTION UNDO
+[2017.11.26-13.35.49:855][  7]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.35.49:866][  7]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.26-13.35.49:867][  7]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.35.49:868][  7]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2017.11.26-13.35.49:882][  7]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.35.49:883][  7]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.35.49:883][  7]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-13.35.50:321][ 35]Cmd: TRANSACTION UNDO
+[2017.11.26-13.35.50:321][ 35]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.35.50:342][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.26-13.35.50:342][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.11.26-13.35.50:344][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2017.11.26-13.35.50:358][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.35.50:358][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.35.50:359][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-13.37.42:379][531]LogSavePackage: Save=364.02ms
+[2017.11.26-13.37.42:380][531]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_Auto4A252B2754FB23DF53FE27D9572D1B2A3.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto4.umap'
+[2017.11.26-13.37.42:382][531]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_Auto4.umap
+[2017.11.26-13.37.42:385][531]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox_1_v1' took 0.419
+[2017.11.26-13.37.42:385][531]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.419
+[2017.11.26-13.37.42:413][531]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Greybox_1_v1_BuiltData] ([1] browsable assets)...
+[2017.11.26-13.37.42:413][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Greybox_1_v1_BuiltData]
+[2017.11.26-13.37.42:451][531]LogSavePackage: Save=24.82ms
+[2017.11.26-13.37.42:451][531]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltData_Auto4D282865B408F0988997DE3A12435E148.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_BuiltData_Auto4.uasset'
+[2017.11.26-13.37.42:452][531]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/Greybox_1_v1_BuiltData_Auto4.uasset
+[2017.11.26-13.37.42:453][531]LogFileHelpers: Auto-saving content packages took 0.053
+[2017.11.26-13.39.02:284][159]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2017.11.26-13.39.20:431][201]Cmd: MODE GRID=1
+[2017.11.26-13.40.05:796][336]Cmd: TRANSACTION UNDO
+[2017.11.26-13.40.05:796][336]LogEditorTransaction: Undo Move Actors
+[2017.11.26-13.40.05:809][336]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2017.11.26-13.40.05:823][336]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.26-13.40.05:824][336]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2017.11.26-13.40.05:825][336]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2017.11.26-13.40.05:825][336]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-13.40.08:147][462]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.26-13.40.16:764][427]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.26-13.40.17:588][477]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.26-13.40.25:196][365]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.26-13.41.32:369][694]Cmd: MODE GRID=0
+[2017.11.26-13.41.40:477][562]Cmd: MODE GRID=1
+[2017.11.26-13.41.45:058][948]LogSavePackage: Save=357.54ms
+[2017.11.26-13.41.45:058][948]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1278A1DA64B326ADD4B8CAE91DC28D2B6.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap'
+[2017.11.26-13.41.45:065][948]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap
+[2017.11.26-13.41.45:130][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox_1_v1_BuiltData" FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset" SILENT=true
+[2017.11.26-13.41.45:216][948]LogSavePackage: Save=82.95ms
+[2017.11.26-13.41.45:216][948]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltData0E56A49C4E515FE149E6B5A4BAF9C661.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset'
+[2017.11.26-13.41.45:219][948]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset
+[2017.11.26-13.41.49:166][273]MapCheck: New page: Map Check
+[2017.11.26-13.41.49:190][273]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.26-13.41.49:190][273]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.26-13.41.50:569][273]LightingResults: New page: Lighting Build - 27 Nov 2017 11:41:50 am
+[2017.11.26-13.41.50:586][273]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.26-13.41.50:588][273]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.26-13.41.50:588][273]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.26-13.41.50:589][273]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.26-13.41.50:589][273]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5140
+[2017.11.26-13.41.55:104][273]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.26-13.41.55:105][273]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.26-13.41.55:105][273]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.26-13.41.55:105][273]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.26-13.41.55:105][273]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.26-13.41.55:105][273]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.26-13.41.55:256][273]LogEditorBuildUtils: Build time 0:06
+[2017.11.26-13.42.00:028][516]Job is a success!
+[2017.11.26-13.42.00:237][517]LightingResults: Error: PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.26-13.42.00:730][517]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.26-13.42.00:814][517]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.11.26-13.42.00:814][517]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 64X64)
+[2017.11.26-13.42.00:814][517]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 512X512)
+[2017.11.26-13.42.00:854][517]Lightmass on DESKTOP-5B7AHPE: 4.78 sec total, 139 ms importing, 31 ms setup, 482 ms photons, 4.10 sec processing, 0 ms extra exporting [605/605 mappings]. Threads: 16.3 sec total, 8.62 sec processing.
+[2017.11.26-13.42.00:956][517]LogStaticLightingSystem: Illumination: 10.3 sec (476 ms encoding lightmaps, 67 ms encoding shadowmaps)
+[2017.11.26-13.42.00:956][517]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.26-13.42.00:956][517]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (0.0 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.11.26-13.42.01:109][517]DumpUnbuiltLightIteractions
+[2017.11.26-13.42.01:109][517]Lights with unbuilt interactions: 0
+[2017.11.26-13.42.01:109][517]
+[2017.11.26-13.42.01:109][517]Primitives with unbuilt interactions: 0
+[2017.11.26-13.42.01:116][518]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.26-13.42.01:117][518]MapCheck: New page: Greybox_1_v1 - 27 Nov 2017 11:42:01 am
+[2017.11.26-13.42.01:180][518]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.965ms to complete.
+[2017.11.26-13.42.08:622][  3]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.11.26-13.42.13:170][493]Cmd: DELETE
+[2017.11.26-13.42.13:170][493]Cmd: ACTOR DELETE
+[2017.11.26-13.42.13:172][493]LogEditorActor: Deleted Actor: PointLight
+[2017.11.26-13.42.13:184][493]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.11.26-13.42.25:646][142]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.11.26-13.42.28:648][275]Cmd: DELETE
+[2017.11.26-13.42.28:648][275]Cmd: ACTOR DELETE
+[2017.11.26-13.42.28:651][275]LogEditorActor: Deleted Actor: PointLight
+[2017.11.26-13.42.28:676][275]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.11.26-13.42.30:379][364]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.11.26-13.42.32:487][468]Cmd: DUPLICATE
+[2017.11.26-13.42.32:487][468]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.42.34:176][564]Cmd: DELETE
+[2017.11.26-13.42.34:176][564]Cmd: ACTOR DELETE
+[2017.11.26-13.42.34:178][564]LogEditorActor: Deleted Actor: PointLight
+[2017.11.26-13.42.34:204][564]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.11.26-13.42.54:870][842]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2017.11.26-13.42.55:926][955]Cmd: DUPLICATE
+[2017.11.26-13.42.55:926][955]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.43.06:350][833]MapCheck: New page: Map Check
+[2017.11.26-13.43.06:374][833]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.26-13.43.06:374][833]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.26-13.43.07:724][833]LightingResults: New page: Lighting Build - 27 Nov 2017 11:43:07 am
+[2017.11.26-13.43.07:743][833]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.26-13.43.07:745][833]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.26-13.43.07:745][833]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.26-13.43.07:746][833]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.26-13.43.07:746][833]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5140
+[2017.11.26-13.43.12:259][833]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.26-13.43.12:260][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.26-13.43.12:260][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.26-13.43.12:260][833]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.26-13.43.12:260][833]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.26-13.43.12:260][833]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.26-13.43.12:387][833]LogEditorBuildUtils: Build time 0:06
+[2017.11.26-13.43.17:335][ 94]Job is a success!
+[2017.11.26-13.43.17:540][ 95]LightingResults: Error: PointLight5_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.26-13.43.18:029][ 95]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.26-13.43.18:114][ 95]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2017.11.26-13.43.18:114][ 95]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 64X64)
+[2017.11.26-13.43.18:114][ 95]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 512X512)
+[2017.11.26-13.43.18:149][ 95]Lightmass on DESKTOP-5B7AHPE: 4.87 sec total, 141 ms importing, 27 ms setup, 507 ms photons, 4.16 sec processing, 0 ms extra exporting [605/605 mappings]. Threads: 16.6 sec total, 8.78 sec processing.
+[2017.11.26-13.43.18:245][ 95]LogStaticLightingSystem: Illumination: 10.4 sec (476 ms encoding lightmaps, 66 ms encoding shadowmaps)
+[2017.11.26-13.43.18:245][ 95]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.26-13.43.18:245][ 95]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (0.0 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.11.26-13.43.18:264][ 95]DumpUnbuiltLightIteractions
+[2017.11.26-13.43.18:264][ 95]Lights with unbuilt interactions: 0
+[2017.11.26-13.43.18:265][ 95]
+[2017.11.26-13.43.18:265][ 95]Primitives with unbuilt interactions: 0
+[2017.11.26-13.43.18:270][ 96]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.26-13.43.18:270][ 96]MapCheck: New page: Greybox_1_v1 - 27 Nov 2017 11:43:18 am
+[2017.11.26-13.43.18:331][ 96]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.348ms to complete.
+[2017.11.26-13.44.16:378][950]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2017.11.26-13.44.25:727][  8]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2017.11.26-13.45.08:180][441]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.11.26-13.45.29:220][683]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2017.11.26-13.46.00:741][869]LogSavePackage: Save=292.43ms
+[2017.11.26-13.46.00:741][869]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v14FF716734562FAA58FDD459581CA4C37.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap'
+[2017.11.26-13.46.00:748][869]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap
+[2017.11.26-13.46.00:836][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox_1_v1_BuiltData" FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset" SILENT=true
+[2017.11.26-13.46.01:192][869]LogSavePackage: Save=346.10ms
+[2017.11.26-13.46.01:193][869]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltDataE295683947B032CB00006591C736A882.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset'
+[2017.11.26-13.46.01:196][869]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset
+[2017.11.26-13.46.02:727][941]MapCheck: New page: Map Check
+[2017.11.26-13.46.02:753][941]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.26-13.46.02:753][941]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.26-13.46.04:111][941]LightingResults: New page: Lighting Build - 27 Nov 2017 11:46:04 am
+[2017.11.26-13.46.04:129][941]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.26-13.46.04:131][941]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.26-13.46.04:131][941]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.26-13.46.04:132][941]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.26-13.46.04:132][941]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5140
+[2017.11.26-13.46.08:645][941]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.26-13.46.08:646][941]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.26-13.46.08:646][941]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.26-13.46.08:646][941]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.26-13.46.08:646][941]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.26-13.46.08:646][941]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.26-13.46.08:795][941]LogEditorBuildUtils: Build time 0:06
+[2017.11.26-13.46.13:352][115]Job is a success!
+[2017.11.26-13.46.13:652][117]LightingResults: Error: PointLight5_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.26-13.46.14:131][117]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.26-13.46.14:225][117]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2017.11.26-13.46.14:225][117]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 64X64)
+[2017.11.26-13.46.14:225][117]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 512X512)
+[2017.11.26-13.46.14:277][117]Lightmass on DESKTOP-5B7AHPE: 4.65 sec total, 140 ms importing, 26 ms setup, 461 ms photons, 4.00 sec processing, 0 ms extra exporting [605/605 mappings]. Threads: 15.9 sec total, 8.09 sec processing.
+[2017.11.26-13.46.14:407][117]LogStaticLightingSystem: Illumination: 10.2 sec (472 ms encoding lightmaps, 66 ms encoding shadowmaps)
+[2017.11.26-13.46.14:407][117]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.26-13.46.14:407][117]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.11.26-13.46.14:650][117]DumpUnbuiltLightIteractions
+[2017.11.26-13.46.14:650][117]Lights with unbuilt interactions: 0
+[2017.11.26-13.46.14:650][117]
+[2017.11.26-13.46.14:650][117]Primitives with unbuilt interactions: 0
+[2017.11.26-13.46.14:658][118]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.26-13.46.14:658][118]MapCheck: New page: Greybox_1_v1 - 27 Nov 2017 11:46:14 am
+[2017.11.26-13.46.14:799][118]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 140.95ms to complete.
+[2017.11.26-13.47.07:773][640]Cmd: DUPLICATE
+[2017.11.26-13.47.07:773][640]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.47.27:898][786]MapCheck: New page: Map Check
+[2017.11.26-13.47.27:916][786]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.26-13.47.27:916][786]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.26-13.47.29:273][786]LightingResults: New page: Lighting Build - 27 Nov 2017 11:47:29 am
+[2017.11.26-13.47.29:292][786]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.26-13.47.29:294][786]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.26-13.47.29:294][786]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.26-13.47.29:295][786]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.26-13.47.29:295][786]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5140
+[2017.11.26-13.47.33:809][786]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.26-13.47.33:809][786]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.26-13.47.33:810][786]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.26-13.47.33:810][786]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.26-13.47.33:810][786]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.26-13.47.33:810][786]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.26-13.47.33:939][786]LogEditorBuildUtils: Build time 0:06
+[2017.11.26-13.47.38:940][ 70]Job is a success!
+[2017.11.26-13.47.39:173][ 71]LightingResults: Error: PointLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.26-13.47.39:174][ 71]LightingResults: Error: PointLight5_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.26-13.47.39:631][ 71]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.26-13.47.39:717][ 71]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 32X32)
+[2017.11.26-13.47.39:717][ 71]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 256X128)
+[2017.11.26-13.47.39:717][ 71]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 512X512)
+[2017.11.26-13.47.39:749][ 71]Lightmass on DESKTOP-5B7AHPE: 4.92 sec total, 149 ms importing, 29 ms setup, 527 ms photons, 4.19 sec processing, 0 ms extra exporting [605/605 mappings]. Threads: 16.7 sec total, 8.93 sec processing.
+[2017.11.26-13.47.39:905][ 71]LogStaticLightingSystem: Illumination: 10.5 sec (455 ms encoding lightmaps, 67 ms encoding shadowmaps)
+[2017.11.26-13.47.39:905][ 71]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.26-13.47.39:905][ 71]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (0.0 MB streaming, 1.3 MB non-streaming), 3 textures
+[2017.11.26-13.47.40:816][ 71]DumpUnbuiltLightIteractions
+[2017.11.26-13.47.40:816][ 71]Lights with unbuilt interactions: 0
+[2017.11.26-13.47.40:816][ 71]
+[2017.11.26-13.47.40:816][ 71]Primitives with unbuilt interactions: 0
+[2017.11.26-13.47.40:820][ 72]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.26-13.47.40:820][ 72]MapCheck: New page: Greybox_1_v1 - 27 Nov 2017 11:47:40 am
+[2017.11.26-13.47.40:980][ 72]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 159.625ms to complete.
+[2017.11.26-13.47.43:734][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.47.44:126][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.47.48:487][577]LogSavePackage: Save=293.87ms
+[2017.11.26-13.47.48:487][577]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v10CFE34FB4D51F5E3BAB4B09EC1EA83C2.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap'
+[2017.11.26-13.47.48:491][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap
+[2017.11.26-13.47.48:556][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox_1_v1_BuiltData" FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset" SILENT=true
+[2017.11.26-13.47.48:647][577]LogSavePackage: Save=87.40ms
+[2017.11.26-13.47.48:647][577]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltDataDCA55FCE4DAD8B9D5A38CA9932283095.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset'
+[2017.11.26-13.47.48:650][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset
+[2017.11.26-13.48.03:983][345]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.26-13.48.04:022][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-13.48.04:022][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.26-13.48.04:022][345]PIE: New page: PIE session: Greybox_1_v1 (27 Nov 2017 11:48:04 am)
+[2017.11.26-13.48.04:022][345]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Greybox_1_v1
+[2017.11.26-13.48.04:065][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042944s)
+[2017.11.26-13.48.04:066][345]LogAIModule: Creating AISystem for world Greybox_1_v1
+[2017.11.26-13.48.04:067][345]LogPlayLevel: PIE: World Init took: (0.001507s)
+[2017.11.26-13.48.04:067][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Greybox_1_v1.Greybox_1_v1 to /Game/Maps/UEDPIE_0_Greybox_1_v1.Greybox_1_v1 (0.044881s)
+[2017.11.26-13.48.04:083][345]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2017.11.26-13.48.04:095][345]LogInit: FAudioDevice initialized.
+[2017.11.26-13.48.04:129][345]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.26-13.48.04:133][345]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Greybox_1_v1.Greybox_1_v1 up for play (max tick rate 0) at 2017.11.27-00.48.04
+[2017.11.26-13.48.04:134][345]LogWorld: Bringing up level for play took: 0.002788
+[2017.11.26-13.48.04:135][345]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Greybox_1_v1 0.643
+[2017.11.26-13.48.04:135][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-13.48.06:312][600]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-13.48.06:363][600]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1' with GeneratedClass '/Game/Maps/Greybox_1_v1.Greybox_1_v1_C' with ClassGeneratedBy '/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Greybox_1_v1'
+[2017.11.26-13.48.37:474][803]Cmd: DELETE
+[2017.11.26-13.48.37:474][803]Cmd: ACTOR DELETE
+[2017.11.26-13.48.37:477][803]LogEditorActor: Deleted Actor: Brush
+[2017.11.26-13.48.37:589][803]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2017.11.26-13.49.41:832][126]Cmd: DUPLICATE
+[2017.11.26-13.49.41:832][126]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.50.40:171][674]Cmd: DUPLICATE
+[2017.11.26-13.50.40:171][674]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.51.24:565][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-13.51.53:704][648]Cmd: DUPLICATE
+[2017.11.26-13.51.53:705][648]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.52.24:418][ 52]Cmd: MODE GRID=0
+[2017.11.26-13.52.28:946][535]Cmd: MODE GRID=1
+[2017.11.26-13.54.06:913][874]Cmd: DUPLICATE
+[2017.11.26-13.54.06:913][874]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.54.34:648][845]Cmd: DUPLICATE
+[2017.11.26-13.54.34:648][845]Cmd: ACTOR DUPLICATE
+[2017.11.26-13.54.55:380][937]Cmd: MODE GRID=0
+[2017.11.26-13.56.45:207][277]LogSavePackage: Save=386.36ms
+[2017.11.26-13.56.45:207][277]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1928075E944E4F1162E323EA87687C82B.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap'
+[2017.11.26-13.56.45:212][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap
+[2017.11.26-13.56.45:287][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox_1_v1_BuiltData" FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset" SILENT=true
+[2017.11.26-13.56.45:385][277]LogSavePackage: Save=87.89ms
+[2017.11.26-13.56.45:385][277]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltData1D9C26BA49E8120BAA03CFA51F513896.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset'
+[2017.11.26-13.56.45:387][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset
+[2017.11.26-14.05.04:235][543]Cmd: DUPLICATE
+[2017.11.26-14.05.04:235][543]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.05.42:162][825]Cmd: DUPLICATE
+[2017.11.26-14.05.42:163][825]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.05.52:060][922]Cmd: DUPLICATE
+[2017.11.26-14.05.52:060][922]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.05.57:330][520]Cmd: DUPLICATE
+[2017.11.26-14.05.57:330][520]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.06.00:444][858]Cmd: DELETE
+[2017.11.26-14.06.00:444][858]Cmd: ACTOR DELETE
+[2017.11.26-14.06.00:447][858]LogEditorActor: Deleted Actor: Brush
+[2017.11.26-14.06.00:531][858]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2017.11.26-14.06.09:275][865]Cmd: DUPLICATE
+[2017.11.26-14.06.09:275][865]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.07.09:259][685]Cmd: DUPLICATE
+[2017.11.26-14.07.09:259][685]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.07.49:234][178]Cmd: DUPLICATE
+[2017.11.26-14.07.49:235][178]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.08.44:683][478]Cmd: DUPLICATE
+[2017.11.26-14.08.44:683][478]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.10.03:196][446]Cmd: DUPLICATE
+[2017.11.26-14.10.03:197][446]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.10.09:444][143]Cmd: TRANSACTION UNDO
+[2017.11.26-14.10.09:444][143]LogEditorTransaction: Undo Move Actors
+[2017.11.26-14.10.09:458][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:459][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush22.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:459][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush33.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:459][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:475][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:475][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:476][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush44.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:476][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush60.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:477][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush55.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:477][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:477][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:478][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:478][143]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:748][163]Cmd: TRANSACTION UNDO
+[2017.11.26-14.10.09:748][163]LogEditorTransaction: Undo Move Actors
+[2017.11.26-14.10.09:779][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush34.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:794][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.Subtractive_Box.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:795][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:795][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush44.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:796][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush60.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:796][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush55.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:796][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:797][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:797][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2017.11.26-14.10.09:797][163]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2017.11.26-14.10.10:803][218]Cmd: TRANSACTION UNDO
+[2017.11.26-14.10.10:803][218]LogEditorTransaction: Undo Duplicate Actors
+[2017.11.26-14.10.10:833][218]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush33.BrushComponent0) Component already registered.
+[2017.11.26-14.10.10:851][218]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.11.26-14.10.10:852][218]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2017.11.26-14.10.10:852][218]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2017.11.26-14.10.10:853][218]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.11.26-14.10.13:774][363]Cmd: DUPLICATE
+[2017.11.26-14.10.13:774][363]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.10.33:217][471]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.26-14.11.20:671][866]Cmd: DUPLICATE
+[2017.11.26-14.11.20:671][866]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.12.13:687][809]Cmd: DUPLICATE
+[2017.11.26-14.12.13:687][809]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.12.36:709][412]Cmd: DUPLICATE
+[2017.11.26-14.12.36:709][412]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.12.40:306][789]Cmd: TRANSACTION UNDO
+[2017.11.26-14.12.40:306][789]LogEditorTransaction: Undo Rotate Actors
+[2017.11.26-14.12.40:320][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush29.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:320][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:321][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:337][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:337][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:338][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:339][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush54.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:339][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:340][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:340][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2017.11.26-14.12.40:341][789]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2017.11.26-14.13.49:099][248]LogSavePackage: Save=419.10ms
+[2017.11.26-14.13.49:099][248]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1E1FFE82C47AA5CB29020D08DB30C0C7D.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap'
+[2017.11.26-14.13.49:103][248]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap
+[2017.11.26-14.13.49:180][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox_1_v1_BuiltData" FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset" SILENT=true
+[2017.11.26-14.13.49:278][248]LogSavePackage: Save=86.98ms
+[2017.11.26-14.13.49:278][248]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltData8E50509F41FB34EBDF452D84E69BF0D9.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset'
+[2017.11.26-14.13.49:279][248]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset
+[2017.11.26-14.14.05:153][ 87]Cmd: DUPLICATE
+[2017.11.26-14.14.05:153][ 87]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.14.37:301][703]Cmd: DUPLICATE
+[2017.11.26-14.14.37:301][703]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.14.42:323][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-14.14.51:562][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-14.14.55:277][704]Cmd: DUPLICATE
+[2017.11.26-14.14.55:277][704]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.16.07:848][  1]Cmd: TRANSACTION UNDO
+[2017.11.26-14.16.07:848][  1]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-14.16.07:865][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2017.11.26-14.16.07:865][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-14.16.07:884][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush58_27.BrushComponent0) Component already registered.
+[2017.11.26-14.16.07:885][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2017.11.26-14.16.07:885][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2017.11.26-14.16.07:885][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.11.26-14.16.07:885][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush66.BrushComponent0) Component already registered.
+[2017.11.26-14.16.07:885][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2017.11.26-14.16.08:960][ 70]Cmd: TRANSACTION UNDO
+[2017.11.26-14.16.08:960][ 70]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-14.16.08:999][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2017.11.26-14.16.08:999][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-14.16.09:017][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush58_27.BrushComponent0) Component already registered.
+[2017.11.26-14.16.09:017][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2017.11.26-14.16.09:017][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2017.11.26-14.16.09:018][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.11.26-14.16.09:018][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush66.BrushComponent0) Component already registered.
+[2017.11.26-14.16.09:018][ 70]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:335][149]Cmd: TRANSACTION UNDO
+[2017.11.26-14.16.10:335][149]LogEditorTransaction: Undo Scale Actors
+[2017.11.26-14.16.10:365][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:365][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:383][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush58_27.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:383][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:383][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:384][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:384][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush66.BrushComponent0) Component already registered.
+[2017.11.26-14.16.10:384][149]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Greybox_1_v1.Greybox_1_v1:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2017.11.26-14.16.25:010][626]Cmd: DELETE
+[2017.11.26-14.16.25:010][626]Cmd: ACTOR DELETE
+[2017.11.26-14.16.25:013][626]LogEditorActor: Deleted Actor: Brush
+[2017.11.26-14.16.25:013][626]LogEditorActor: Deleted Actor: Brush
+[2017.11.26-14.16.25:120][626]LogEditorActor: Deleted 2 Actors (0.109 secs)
+[2017.11.26-14.16.34:059][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.11.26-14.16.36:279][847]Cmd: DUPLICATE
+[2017.11.26-14.16.36:279][847]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.17.22:321][771]Cmd: DUPLICATE
+[2017.11.26-14.17.22:321][771]Cmd: ACTOR DUPLICATE
+[2017.11.26-14.17.30:427][567]LogSavePackage: Save=430.58ms
+[2017.11.26-14.17.30:427][567]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1D54DEFC6422A57E2B1C2EFAE7007B3E6.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap'
+[2017.11.26-14.17.30:431][567]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1.umap
+[2017.11.26-14.17.30:497][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox_1_v1_BuiltData" FILE="../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset" SILENT=true
+[2017.11.26-14.17.30:588][567]LogSavePackage: Save=87.44ms
+[2017.11.26-14.17.30:588][567]LogSavePackage: Moving '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Greybox_1_v1_BuiltData63515D16436BB0BD2673279B9AE5F217.tmp' to '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset'
+[2017.11.26-14.17.30:590][567]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Maps/Greybox_1_v1_BuiltData.uasset
+[2017.11.26-14.17.36:738][193]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.26-14.17.36:952][194]Cmd: QUIT_EDITOR
+[2017.11.26-14.17.37:794][194]LogExit: Preparing to exit.
+[2017.11.26-14.17.38:549][194]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/' was aborted.
+[2017.11.26-14.17.38:641][194]LogExit: Editor shut down
+[2017.11.26-14.17.38:672][194]LogExit: Transaction tracking system shut down
+[2017.11.26-14.17.38:835][194]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.26-14.17.38:835][194]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/' was aborted.
+[2017.11.26-14.17.38:835][194]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.26-14.17.38:835][194]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.26-14.17.38:835][194]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.26-14.17.38:918][194]LogExit: Object subsystem successfully closed.
+[2017.11.26-14.17.38:936][194]LogD3D11RHI: Shutdown
+[2017.11.26-14.17.38:936][194]LogD3D11RHI: CleanupD3DDevice
+[2017.11.26-14.17.39:086][194]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.26-14.17.39:103][194]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.11.26-14.17.39:103][194]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.26-14.17.39:103][194]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.26-14.17.39:103][194]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.26-14.17.39:103][194]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.26-14.17.39:108][194]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.26-14.17.39:108][194]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.26-14.17.39:108][194]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.26-14.17.39:108][194]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Collections/' was aborted.
+[2017.11.26-14.17.39:109][194]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Content/Developers/AshishGosain/Collections/' was aborted.
+[2017.11.26-14.17.39:109][194]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashish Gosain/Documents/HereAfter/GreyBox_Level1/Saved/Collections/' was aborted.
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.26-14.17.39:109][194]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.26-14.17.39:110][194]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.26-14.17.39:867][194]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.26-14.17.39:868][194]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.26-14.17.39:869][194]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.26-14.17.39:869][194]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.26-14.17.39:869][194]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.26-14.17.39:934][194]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.26-14.17.39:935][194]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.26-14.17.40:124][194]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.26-14.17.40:125][194]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.26-14.17.40:127][194]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.26-14.17.40:128][194]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.26-14.17.40:228][194]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.26-14.17.40:329][194]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.26-14.17.40:329][194]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.26-14.17.40:329][194]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.26-14.17.40:329][194]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.26-14.17.40:329][194]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.26-14.17.40:329][194]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.26-14.17.40:331][194]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.26-14.17.40:331][194]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.26-14.17.40:331][194]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.26-14.17.40:331][194]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.26-14.17.40:333][194]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.26-14.17.40:334][194]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.26-14.17.40:337][194]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.26-14.17.40:338][194]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.26-14.17.40:338][194]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.26-14.17.40:338][194]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.26-14.17.40:338][194]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.26-14.17.40:343][194]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.26-14.17.40:345][194]LogDerivedDataCache: Shutdown
+[2017.11.26-14.17.40:345][194]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.26-14.17.40:345][194]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.26-14.17.40:346][194]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.26-14.17.40:347][194]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.26-14.17.40:347][194]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.26-14.17.40:347][194]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.26-14.17.40:347][194]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B606AB6B5-4732-EE60-1909-5EA9030FD887%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=4ee157d64f2bc32a472daf909e026887%7Cf43cf94564b340929fb675d5fd594766%7C221b2a38-b856-46d0-baaa-5f0e851b639e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.26-14.17.40:353][194]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.26-14.17.40:355][194]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.26-14.17.40:355][194]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.26-14.17.40:355][194]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.26-14.17.40:355][194]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.26-14.17.40:355][194]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.26-14.17.40:355][194]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.26-14.17.40:355][194]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.26-14.17.40:357][194]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.26-14.17.40:360][194]LogExit: Exiting.
+[2017.11.26-14.17.40:394][194]Log file closed, 11/27/17 01:17:40
