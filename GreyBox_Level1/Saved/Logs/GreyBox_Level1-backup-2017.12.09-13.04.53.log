@@ -1,0 +1,873 @@
+﻿Log file open, 12/09/17 12:53:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GreyBox_Level1
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1573123116) SRandInit(1573123116).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.167909
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.09-01.53.19:964][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-01.53.19:965][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.09-01.53.19:975][  0]LogInit: Computer: GR00VY-PC
+[2017.12.09-01.53.19:975][  0]LogInit: User: Gr00vy
+[2017.12.09-01.53.19:975][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.09-01.53.19:975][  0]LogInit: High frequency timer resolution =3.318389 MHz
+[2017.12.09-01.53.19:975][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.09-01.53.19:975][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.09-01.53.19:975][  0]LogMemory: Process Physical Memory: 277.54 MB used, 277.54 MB peak
+[2017.12.09-01.53.19:975][  0]LogMemory: Process Virtual Memory: 274.21 MB used, 274.21 MB peak
+[2017.12.09-01.53.19:975][  0]LogMemory: Physical Memory: 3684.85 MB used,  4444.88 MB free, 8129.73 MB total
+[2017.12.09-01.53.19:975][  0]LogMemory: Virtual Memory: 669.05 MB used,  4444.88 MB free, 134217728.00 MB total
+[2017.12.09-01.53.20:132][  0]LogInit: Using OS detected language (en-US).
+[2017.12.09-01.53.20:132][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.09-01.53.20:135][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.09-01.53.20:792][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.09-01.53.20:839][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2017.12.09-01.53.20:839][  0]LogD3D11RHI:       2018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.09-01.53.20:840][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.09-01.53.20:840][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.09-01.53.20:840][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.09-01.53.20:844][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.09-01.53.20:845][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.09-01.53.20:845][  0]LogWindows: EnumDisplayDevices:
+[2017.12.09-01.53.20:845][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2017.12.09-01.53.20:845][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.12.09-01.53.20:845][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.12.09-01.53.20:845][  0]LogWindows:    3. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.12.09-01.53.20:845][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.09-01.53.20:845][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2017.12.09-01.53.20:845][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.09-01.53.20:845][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.09-01.53.20:845][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.09-01.53.20:879][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.09-01.53.20:890][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.09-01.53.20:937][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Intermediate/Shaders/WorkingDirectory/11372/).
+[2017.12.09-01.53.20:937][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gr00vy/AppData/Local/Temp/UnrealShaderWorkingDir/D6D8A6E841944E8E6B44D08DFF0F8335/'.
+[2017.12.09-01.53.20:937][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.09-01.53.21:832][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.09-01.53.21:880][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.09-01.53.21:929][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.09-01.53.21:978][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.09-01.53.22:028][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.09-01.53.22:084][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.09-01.53.22:133][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.09-01.53.22:183][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.09-01.53.22:227][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.09-01.53.22:274][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.09-01.53.22:322][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.09-01.53.22:368][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.09-01.53.22:415][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.09-01.53.22:464][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.09-01.53.22:511][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.09-01.53.22:606][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.09-01.53.22:606][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.09-01.53.22:644][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.09-01.53.22:736][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.09-01.53.22:763][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.09-01.53.22:812][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.09-01.53.22:858][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.09-01.53.22:906][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.09-01.53.22:956][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.09-01.53.22:956][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.09-01.53.23:419][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.09-01.53.23:550][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.09-01.53.23:550][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.09-01.53.23:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.09-01.53.23:550][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.09-01.53.23:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.09-01.53.23:550][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.09-01.53.23:566][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.09-01.53.23:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gr00vy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.09-01.53.23:592][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.09-01.53.23:592][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.09-01.53.23:593][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-01.53.23:593][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-01.53.23:852][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.12.09-01.53.23:962][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-01.53.24:347][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.09-01.53.24:385][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.09-01.53.24:385][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.09-01.53.24:385][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.09-01.53.24:385][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.09-01.53.24:385][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.09-01.53.24:416][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.09-01.53.24:848][  0]LogNetVersion: GreyBox_Level1 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2619429060)
+[2017.12.09-01.53.25:079][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.047037 seconds
+[2017.12.09-01.53.25:087][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.09-01.53.25:087][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.12.09-01.53.25:087][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.09-01.53.25:148][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.09-01.53.27:693][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.09-01.53.27:732][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.09-01.53.28:351][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.09-01.53.28:745][  0]SourceControl: Source control is disabled
+[2017.12.09-01.53.28:745][  0]SourceControl: Source control is disabled
+[2017.12.09-01.53.28:790][  0]SourceControl: Source control is disabled
+[2017.12.09-01.53.28:840][  0]SourceControl: Source control is disabled
+[2017.12.09-01.53.29:427][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.09-01.53.29:673][  0]LogOcInput: OculusInput pre-init called
+[2017.12.09-01.53.29:933][  0]LogEngine: Initializing Engine...
+[2017.12.09-01.53.29:935][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.09-01.53.30:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.09-01.53.30:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.09-01.53.30:318][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.09-01.53.30:325][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-01.53.30:342][  0]LogInit: FAudioDevice initialized.
+[2017.12.09-01.53.30:473][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.09-01.53.30:495][  0]LogInit: Texture streaming: Enabled
+[2017.12.09-01.53.30:612][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.09-01.53.30:823][  0]LogInit: Transaction tracking system initialized
+[2017.12.09-01.53.31:122][  0]BlueprintLog: New page: Editor Load
+[2017.12.09-01.53.32:015][  0]LocalizationService: Localization service is disabled
+[2017.12.09-01.53.32:689][  0]LogConsoleResponse: Display: 
+[2017.12.09-01.53.32:871][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.09-01.53.32:871][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.09-01.53.32:871][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.09-01.53.32:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/' took 0.02s
+[2017.12.09-01.53.33:879][  0]SourceControl: Source control is disabled
+[2017.12.09-01.53.33:879][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.09-01.53.33:880][  0]LightingResults: New page: Lighting Build
+[2017.12.09-01.53.33:920][  0]MapCheck: New page: Map Check
+[2017.12.09-01.53.33:920][  0]LightingResults: New page: Lighting Build
+[2017.12.09-01.53.34:388][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.09-01.53.34:408][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.09-01.53.34:435][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.09-01.53.34:495][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.894ms to complete.
+[2017.12.09-01.53.34:495][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.616
+[2017.12.09-01.53.34:547][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.09-01.53.34:629][  0]LogCollectionManager: Loaded 0 collections in 0.001645 seconds
+[2017.12.09-01.53.34:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/Collections/' took 0.01s
+[2017.12.09-01.53.34:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Developers/Gr00vy/Collections/' took 0.01s
+[2017.12.09-01.53.34:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Collections/' took 0.01s
+[2017.12.09-01.53.34:708][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.09-01.53.34:718][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2386 classes and 500 folders.
+[2017.12.09-01.53.34:780][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.12.09-01.53.34:817][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.09-01.53.34:859][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.09-01.53.34:908][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0009 seconds. Added 2 classes and 3 folders.
+[2017.12.09-01.53.34:984][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-01.53.34:986][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.09-01.53.34:991][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.09-01.53.35:088][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:1).
+[2017.12.09-01.53.35:280][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.09-01.53.35:280][  0]LogLoad: (Engine Initialization) Total time: 16.84 seconds
+[2017.12.09-01.53.35:280][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.09-01.53.35:281][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.09-01.53.35:281][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.09-01.53.35:312][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.09-01.53.35:360][  1]LogAssetRegistry: Asset discovery search completed in 11.5303 seconds
+[2017.12.09-01.53.35:362][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.09-01.53.35:362][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.12.09-01.53.36:969][116]LogSlate: Took 0.000609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-01.53.38:741][246]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-01.53.38:776][246]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-01.53.38:794][246]Cmd: MAP LOAD FILE="../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.09-01.53.38:795][246]LightingResults: New page: Lighting Build
+[2017.12.09-01.53.38:795][246]LoadErrors: New page: Loading map: FloatingForestSection.umap
+[2017.12.09-01.53.38:797][246]MapCheck: New page: Map Check
+[2017.12.09-01.53.38:797][246]LightingResults: New page: Lighting Build
+[2017.12.09-01.53.38:858][246]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.09-01.53.38:887][246]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.09-01.53.38:951][246]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.917ms to complete.
+[2017.12.09-01.53.38:951][246]LogFileHelpers: Loading map 'FloatingForestSection' took 0.158
+[2017.12.09-01.53.47:430][931]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.53.48:847][ 50]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.53.51:036][220]LogEditorViewport: Clicking Background
+[2017.12.09-01.53.56:234][660]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.53.57:218][743]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.53.59:067][892]LogEditorViewport: Clicking Background
+[2017.12.09-01.54.03:754][280]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.54.04:942][378]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.54.13:593][ 80]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.54.14:530][155]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-01.54.16:102][283]LogEditorViewport: Clicking Background
+[2017.12.09-01.54.19:415][543]LogSavePackage: Save=131.52ms
+[2017.12.09-01.54.19:415][543]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection4AA556944CF0D77F8E0EFF91BB0C3B7C.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.19:418][543]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.19:455][543]LogSavePackage: Save=10.38ms
+[2017.12.09-01.54.19:455][543]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData04A4A9AB490CDC833E12C1A1993E31DC.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.19:456][543]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.19:922][571]LogSavePackage: Save=131.02ms
+[2017.12.09-01.54.19:922][571]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection3ED904724A691A1575EEB4BA897E8C17.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.19:924][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.19:962][571]LogSavePackage: Save=9.31ms
+[2017.12.09-01.54.19:962][571]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataE0528E9A4FEE8036F9E8CABFD6C2ED7A.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.19:963][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.20:196][579]LogSavePackage: Save=135.84ms
+[2017.12.09-01.54.20:196][579]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionCC0D84164FBC539EF217B6BE58327CD4.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.20:198][579]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.20:230][579]LogSavePackage: Save=8.36ms
+[2017.12.09-01.54.20:230][579]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData322E6D474443A598EFC20AAFA0CCCAC0.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.20:232][579]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.20:787][614]LogSavePackage: Save=138.35ms
+[2017.12.09-01.54.20:787][614]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection7334312A4ABE4F700CEAA1986348479D.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.20:790][614]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.20:826][614]LogSavePackage: Save=8.76ms
+[2017.12.09-01.54.20:826][614]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData7CF2F4D44161187673FAF5922BA4CFE2.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.20:827][614]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.21:272][638]LogSavePackage: Save=136.95ms
+[2017.12.09-01.54.21:272][638]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionF32737A4491B9DB2B87B7294105E4F9E.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.21:274][638]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.21:306][638]LogSavePackage: Save=9.57ms
+[2017.12.09-01.54.21:306][638]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData90BFB9134F68979C94C2CF9257443C95.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.21:309][638]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.21:827][671]LogSavePackage: Save=133.76ms
+[2017.12.09-01.54.21:827][671]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionBAAB3F494383E76ECCA856BECBFCDFB8.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.21:829][671]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.21:862][671]LogSavePackage: Save=10.91ms
+[2017.12.09-01.54.21:862][671]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataF7AF9EFD44C0F040ADC243ABBC3EF2B8.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.21:863][671]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.22:376][704]LogSavePackage: Save=126.86ms
+[2017.12.09-01.54.22:376][704]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionE71C099245556919B88F43A42CC775D7.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.22:379][704]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.22:410][704]LogSavePackage: Save=8.95ms
+[2017.12.09-01.54.22:410][704]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataAC4E3EDD4D7CB496479A7884CD0E265A.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.22:412][704]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.22:910][735]LogSavePackage: Save=133.02ms
+[2017.12.09-01.54.22:910][735]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionF0F351034CCB2BADF8D3FEA2812CB4B9.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.22:912][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.22:944][735]LogSavePackage: Save=9.38ms
+[2017.12.09-01.54.22:944][735]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData68BF62A74BBBCB1FA1C8B6A18D5BAA21.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.22:946][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.23:437][766]LogSavePackage: Save=130.10ms
+[2017.12.09-01.54.23:437][766]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionCCEC3BD042E8FA4DAD284A8CEEF053AE.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.23:439][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.23:473][766]LogSavePackage: Save=11.04ms
+[2017.12.09-01.54.23:473][766]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData4C2B45AD43BDBE4A324C4F8273993B0E.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.23:474][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.28:889][207]LogSavePackage: Save=130.65ms
+[2017.12.09-01.54.28:889][207]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionA2BD1FF34773DAB17675ADB5840ED748.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.28:891][207]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.28:921][207]LogSavePackage: Save=7.89ms
+[2017.12.09-01.54.28:921][207]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataDFBF78DF465192FE340E5CB76EEFEB10.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.28:923][207]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.29:439][240]LogSavePackage: Save=132.17ms
+[2017.12.09-01.54.29:439][240]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionD6D0E6E4454A87A720FAA2835546CAB3.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.29:441][240]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.29:471][240]LogSavePackage: Save=8.50ms
+[2017.12.09-01.54.29:471][240]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData0E79B5F8466E1B9F2C5FC48FAA132175.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.29:473][240]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.30:009][273]LogSavePackage: Save=147.52ms
+[2017.12.09-01.54.30:009][273]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionA5D60071462559B108D1B9889493D4FF.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.30:010][273]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.30:041][273]LogSavePackage: Save=8.12ms
+[2017.12.09-01.54.30:041][273]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData7309EF87438FC1F41B4BB3AD0D9C06A9.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.30:042][273]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.54.34:920][665]LogSavePackage: Save=137.25ms
+[2017.12.09-01.54.34:920][665]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection53C72F41479CE46FD4E136B07E252ED8.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.54.34:922][665]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.54.34:956][665]LogSavePackage: Save=10.30ms
+[2017.12.09-01.54.34:957][665]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataA3CD196847FF5AC59759688E98D9A173.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.54.34:958][665]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.56.32:028][216]LogSavePackage: Save=139.50ms
+[2017.12.09-01.56.32:028][216]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection82D09B1646AC3F142A3CF6958476F04A.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.56.32:030][216]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.56.32:065][216]LogSavePackage: Save=10.31ms
+[2017.12.09-01.56.32:066][216]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData3132A13F43543FA1ED86D88E504B8462.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.56.32:067][216]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.56.32:553][245]LogSavePackage: Save=134.85ms
+[2017.12.09-01.56.32:553][245]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionBD9C2D844878A601F594D4ADF950F3CA.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.56.32:557][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.56.32:608][245]LogSavePackage: Save=10.25ms
+[2017.12.09-01.56.32:608][245]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData71CC93D74C96D5B0F67754BDA7AF4849.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.56.32:609][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.56.34:557][394]LogSavePackage: Save=140.34ms
+[2017.12.09-01.56.34:557][394]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionE8CEC65E41A1D63DB1CE6CA051C5D279.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-01.56.34:560][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-01.56.34:594][394]LogSavePackage: Save=8.97ms
+[2017.12.09-01.56.34:594][394]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataE6067BD14F5F36D690131D830F2FA826.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-01.56.34:596][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-01.56.35:023][433]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-01.56.35:069][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-01.56.35:070][433]PIE: New page: PIE session: FloatingForestSection (Dec 9, 2017, 11:56:35 PM)
+[2017.12.09-01.56.35:070][433]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-01.56.35:078][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008296s)
+[2017.12.09-01.56.35:079][433]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-01.56.35:079][433]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2017.12.09-01.56.35:079][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.009410s)
+[2017.12.09-01.56.35:092][433]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-01.56.35:103][433]LogInit: FAudioDevice initialized.
+[2017.12.09-01.56.35:146][433]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-01.56.35:148][433]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-12.56.35
+[2017.12.09-01.56.35:149][433]LogWorld: Bringing up level for play took: 0.001351
+[2017.12.09-01.56.35:189][433]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.12.09-01.56.35:192][433]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection -0.025
+[2017.12.09-01.56.42:733][ 69]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-01.56.42:747][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-01.56.42:748][ 69]PIE: New page: PIE session: FloatingForestSection (Dec 9, 2017, 11:56:42 PM)
+[2017.12.09-01.56.42:748][ 69]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-01.56.42:757][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009083s)
+[2017.12.09-01.56.42:758][ 69]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-01.56.42:758][ 69]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2017.12.09-01.56.42:758][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.010493s)
+[2017.12.09-01.56.42:783][ 69]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-01.56.42:799][ 69]LogInit: FAudioDevice initialized.
+[2017.12.09-01.56.42:836][ 69]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-01.56.42:838][ 69]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-12.56.42
+[2017.12.09-01.56.42:838][ 69]LogWorld: Bringing up level for play took: 0.001138
+[2017.12.09-01.56.42:841][ 69]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection -0.376
+[2017.12.09-01.57.02:991][746]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-01.57.03:004][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-01.57.03:005][746]PIE: New page: PIE session: FloatingForestSection (Dec 9, 2017, 11:57:03 PM)
+[2017.12.09-01.57.03:005][746]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-01.57.03:016][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011471s)
+[2017.12.09-01.57.03:017][746]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-01.57.03:017][746]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2017.12.09-01.57.03:017][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.012758s)
+[2017.12.09-01.57.03:040][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-01.57.03:054][746]LogInit: FAudioDevice initialized.
+[2017.12.09-01.57.03:090][746]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-01.57.03:092][746]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-12.57.03
+[2017.12.09-01.57.03:092][746]LogWorld: Bringing up level for play took: 0.001225
+[2017.12.09-01.57.03:095][746]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection -0.121
+[2017.12.09-01.57.42:403][ 46]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-01.57.42:417][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-01.57.42:417][ 46]PIE: New page: PIE session: FloatingForestSection (Dec 9, 2017, 11:57:42 PM)
+[2017.12.09-01.57.42:417][ 46]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-01.57.42:428][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011193s)
+[2017.12.09-01.57.42:429][ 46]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-01.57.42:430][ 46]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2017.12.09-01.57.42:430][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.012796s)
+[2017.12.09-01.57.42:453][ 46]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-01.57.42:471][ 46]LogInit: FAudioDevice initialized.
+[2017.12.09-01.57.42:513][ 46]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-01.57.42:515][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-12.57.42
+[2017.12.09-01.57.42:515][ 46]LogWorld: Bringing up level for play took: 0.001210
+[2017.12.09-01.57.42:518][ 46]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection -0.699
+[2017.12.09-01.58.06:595][ 39]LogActorFactory: Actor Factory created Cube
+[2017.12.09-01.58.07:691][124]LogActorFactory: Actor Factory created Cube
+[2017.12.09-01.58.14:572][615]Cmd: TRANSACTION UNDO
+[2017.12.09-01.58.14:572][615]LogEditorTransaction: Undo Move Actors
+[2017.12.09-01.58.14:613][615]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-01.58.14:962][637]Cmd: TRANSACTION UNDO
+[2017.12.09-01.58.14:962][637]LogEditorTransaction: Undo Move Actors
+[2017.12.09-01.58.15:358][666]Cmd: TRANSACTION UNDO
+[2017.12.09-01.58.15:358][666]LogEditorTransaction: Undo Create Actors
+[2017.12.09-01.58.27:187][608]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.12.09-01.58.51:474][370]Cmd: TRANSACTION UNDO
+[2017.12.09-01.58.51:474][370]LogEditorTransaction: Undo Rotate Actors
+[2017.12.09-01.58.51:490][370]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/FloatingForestSection.FloatingForestSection:PersistentLevel.ConeBrush12_1.BrushComponent0) Component already registered.
+[2017.12.09-01.58.51:777][386]Cmd: TRANSACTION UNDO
+[2017.12.09-01.58.51:777][386]LogEditorTransaction: Undo Select Brush Surface
+[2017.12.09-01.59.17:841][298]Cmd: TRANSACTION UNDO
+[2017.12.09-01.59.17:841][298]LogEditorTransaction: Undo Rotate Actors
+[2017.12.09-01.59.17:859][298]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/FloatingForestSection.FloatingForestSection:PersistentLevel.ConeBrush12_1.BrushComponent0) Component already registered.
+[2017.12.09-01.59.28:960][150]Cmd: TRANSACTION UNDO
+[2017.12.09-01.59.28:960][150]LogEditorTransaction: Undo Set actor rotation
+[2017.12.09-01.59.28:980][150]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/FloatingForestSection.FloatingForestSection:PersistentLevel.ConeBrush28.BrushComponent0) Component already registered.
+[2017.12.09-01.59.29:291][161]Cmd: TRANSACTION UNDO
+[2017.12.09-01.59.29:291][161]LogEditorTransaction: Undo Rotate Actors
+[2017.12.09-01.59.29:305][161]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/FloatingForestSection.FloatingForestSection:PersistentLevel.ConeBrush10.BrushComponent0) Component already registered.
+[2017.12.09-01.59.29:722][180]Cmd: TRANSACTION UNDO
+[2017.12.09-01.59.29:722][180]LogEditorTransaction: Undo Rotate Actors
+[2017.12.09-01.59.29:728][180]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/FloatingForestSection.FloatingForestSection:PersistentLevel.ConeBrush12_1.BrushComponent0) Component already registered.
+[2017.12.09-01.59.40:541][958]LogEditorViewport: Clicking Background
+[2017.12.09-01.59.46:101][369]LogEditorViewport: Clicking Background
+[2017.12.09-01.59.50:755][747]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-01.59.50:770][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-01.59.50:770][747]PIE: New page: PIE session: FloatingForestSection (Dec 9, 2017, 11:59:50 PM)
+[2017.12.09-01.59.50:770][747]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-01.59.50:780][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009758s)
+[2017.12.09-01.59.50:782][747]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-01.59.50:782][747]LogPlayLevel: PIE: World Init took: (0.001716s)
+[2017.12.09-01.59.50:782][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.011986s)
+[2017.12.09-01.59.50:798][747]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-01.59.50:814][747]LogInit: FAudioDevice initialized.
+[2017.12.09-01.59.50:849][747]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-01.59.50:851][747]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-12.59.50
+[2017.12.09-01.59.50:851][747]LogWorld: Bringing up level for play took: 0.001095
+[2017.12.09-01.59.50:853][747]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection -0.363
+[2017.12.09-01.59.59:704][376]LogEditorViewport: Clicking Background
+[2017.12.09-02.00.01:996][558]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-02.00.02:009][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-02.00.02:009][558]PIE: New page: PIE session: FloatingForestSection (Dec 10, 2017, 12:00:02 AM)
+[2017.12.09-02.00.02:010][558]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-02.00.02:019][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009374s)
+[2017.12.09-02.00.02:020][558]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-02.00.02:020][558]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2017.12.09-02.00.02:020][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.010676s)
+[2017.12.09-02.00.02:037][558]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-02.00.02:057][558]LogInit: FAudioDevice initialized.
+[2017.12.09-02.00.02:094][558]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-02.00.02:096][558]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-13.00.02
+[2017.12.09-02.00.02:096][558]LogWorld: Bringing up level for play took: 0.001756
+[2017.12.09-02.00.02:100][558]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection 0.884
+[2017.12.09-02.00.11:357][259]LogEditorViewport: Clicking Background
+[2017.12.09-02.00.12:122][321]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-02.00.12:136][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-02.00.12:136][321]PIE: New page: PIE session: FloatingForestSection (Dec 10, 2017, 12:00:12 AM)
+[2017.12.09-02.00.12:136][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-02.00.12:145][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008482s)
+[2017.12.09-02.00.12:146][321]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-02.00.12:146][321]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2017.12.09-02.00.12:146][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.009826s)
+[2017.12.09-02.00.12:160][321]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-02.00.12:171][321]LogInit: FAudioDevice initialized.
+[2017.12.09-02.00.12:206][321]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-02.00.12:208][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-13.00.12
+[2017.12.09-02.00.12:208][321]LogWorld: Bringing up level for play took: 0.001122
+[2017.12.09-02.00.12:211][321]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection 0.994
+[2017.12.09-02.00.21:489][ 76]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2017.12.09-02.01.13:906][ 67]LogEditorViewport: Clicking Background
+[2017.12.09-02.01.32:588][510]LogEditorViewport: Clicking Background
+[2017.12.09-02.01.44:346][424]LogEditorViewport: Clicking Background
+[2017.12.09-02.01.47:706][662]LogSavePackage: Save=301.14ms
+[2017.12.09-02.01.47:706][662]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionF615D8FF43BA6E48A4638F9C4D686CB1.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.01.47:709][662]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.01.47:748][662]LogSavePackage: Save=7.84ms
+[2017.12.09-02.01.47:748][662]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData604ED53942720D44495866A043DAB30D.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.01.47:749][662]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.01.47:996][668]LogSavePackage: Save=141.13ms
+[2017.12.09-02.01.47:996][668]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection7C2E341140EEA09FABA91A93AF0B6FDA.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.01.47:999][668]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.01.48:031][668]LogSavePackage: Save=8.89ms
+[2017.12.09-02.01.48:031][668]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData0B5D921F44A3BA950A20938D4E725797.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.01.48:034][668]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.01.48:564][698]LogSavePackage: Save=145.99ms
+[2017.12.09-02.01.48:564][698]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionDC14F8D146013966ACB197A4D41C694C.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.01.48:566][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.01.48:602][698]LogSavePackage: Save=8.54ms
+[2017.12.09-02.01.48:602][698]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData715D1D7043DC9F11D091F98E521D5010.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.01.48:605][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.01.49:100][725]LogSavePackage: Save=146.09ms
+[2017.12.09-02.01.49:100][725]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection0C787CC2437AB9DD04685AB52B3FA2F3.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.01.49:103][725]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.01.49:137][725]LogSavePackage: Save=8.64ms
+[2017.12.09-02.01.49:137][725]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData6A9E8CC345B8C0EC6E82CBABAD73739B.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.01.49:139][725]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.01.53:979][124]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.09-02.01.53:990][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-02.01.53:990][124]PIE: New page: PIE session: FloatingForestSection (Dec 10, 2017, 12:01:53 AM)
+[2017.12.09-02.01.53:990][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FloatingForestSection
+[2017.12.09-02.01.53:999][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008733s)
+[2017.12.09-02.01.53:999][124]LogAIModule: Creating AISystem for world FloatingForestSection
+[2017.12.09-02.01.53:999][124]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2017.12.09-02.01.54:000][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FloatingForestSection.FloatingForestSection to /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection (0.009648s)
+[2017.12.09-02.01.54:016][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.09-02.01.54:033][124]LogInit: FAudioDevice initialized.
+[2017.12.09-02.01.54:075][124]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.09-02.01.54:077][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FloatingForestSection.FloatingForestSection up for play (max tick rate 0) at 2017.12.09-13.01.54
+[2017.12.09-02.01.54:077][124]LogWorld: Bringing up level for play took: 0.001340
+[2017.12.09-02.01.54:080][124]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FloatingForestSection 0.864
+[2017.12.09-02.02.03:355][854]LogSavePackage: Save=138.54ms
+[2017.12.09-02.02.03:355][854]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection63FF021143227B4957976D9A54FA224A.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.02.03:356][854]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.02.03:390][854]LogSavePackage: Save=9.39ms
+[2017.12.09-02.02.03:390][854]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData2B85F9724A2C81229F4214A086126E69.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.02.03:391][854]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.02.03:899][882]LogSavePackage: Save=137.94ms
+[2017.12.09-02.02.03:899][882]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSectionBBF9A4F54A67D3A25BD58B8959F4F37B.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.02.03:901][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.02.03:933][882]LogSavePackage: Save=7.83ms
+[2017.12.09-02.02.03:933][882]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData71C1F4984C9B0ABFDAFEC6B9E6A14542.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.02.03:934][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.02.04:396][907]LogSavePackage: Save=136.48ms
+[2017.12.09-02.02.04:396][907]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection0CC0790C4A04406F67FAD4883B8EDBCF.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.02.04:398][907]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.02.04:428][907]LogSavePackage: Save=7.10ms
+[2017.12.09-02.02.04:428][907]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataFB1D661E47097F6E3C141EA60A2F39B4.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.02.04:429][907]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.02.04:909][933]LogSavePackage: Save=142.80ms
+[2017.12.09-02.02.04:909][933]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection0198DC7D4D66E55BC9AA94893213EF1D.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.02.04:910][933]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.02.04:942][933]LogSavePackage: Save=8.20ms
+[2017.12.09-02.02.04:942][933]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltData71CD8B6A430FF2E30A28D79CAA0967BD.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.02.04:943][933]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.02.07:110][ 80]LogSavePackage: Save=136.80ms
+[2017.12.09-02.02.07:110][ 80]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection8299E6924F8164E4749F8A9B3B828E65.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap'
+[2017.12.09-02.02.07:112][ 80]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection.umap
+[2017.12.09-02.02.07:148][ 80]LogSavePackage: Save=10.03ms
+[2017.12.09-02.02.07:148][ 80]LogSavePackage: Moving '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/FloatingForestSection_BuiltDataF05C29A84CD449214BFE8AAC5E1D5E95.tmp' to '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset'
+[2017.12.09-02.02.07:150][ 80]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Maps/FloatingForestSection_BuiltData.uasset
+[2017.12.09-02.02.10:008][281]Cmd: QUIT_EDITOR
+[2017.12.09-02.02.10:600][281]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.09-02.02.10:610][281]LogExit: Preparing to exit.
+[2017.12.09-02.02.11:017][281]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/' was aborted.
+[2017.12.09-02.02.11:049][281]LogExit: Editor shut down
+[2017.12.09-02.02.11:056][281]LogExit: Transaction tracking system shut down
+[2017.12.09-02.02.11:284][281]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.09-02.02.11:284][281]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/' was aborted.
+[2017.12.09-02.02.11:284][281]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.09-02.02.11:284][281]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.09-02.02.11:284][281]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.09-02.02.11:345][281]LogExit: Object subsystem successfully closed.
+[2017.12.09-02.02.11:367][281]LogD3D11RHI: Shutdown
+[2017.12.09-02.02.11:367][281]LogD3D11RHI: CleanupD3DDevice
+[2017.12.09-02.02.11:430][281]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.09-02.02.11:447][281]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.12.09-02.02.11:447][281]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.12.09-02.02.11:447][281]LogModuleManager: Shutting down and abandoning module WorldBrowser (530)
+[2017.12.09-02.02.11:447][281]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.12.09-02.02.11:447][281]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.12.09-02.02.11:447][281]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.09-02.02.11:448][281]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.12.09-02.02.11:448][281]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.12.09-02.02.11:448][281]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.12.09-02.02.11:448][281]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Collections/' was aborted.
+[2017.12.09-02.02.11:449][281]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Content/Developers/Gr00vy/Collections/' was aborted.
+[2017.12.09-02.02.11:449][281]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/Documents/GitHub/HereAfter/GreyBox_Level1/Saved/Collections/' was aborted.
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.09-02.02.11:449][281]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.09-02.02.11:450][281]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.09-02.02.11:450][281]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.09-02.02.11:450][281]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.09-02.02.11:450][281]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.09-02.02.11:450][281]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.09-02.02.11:450][281]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.09-02.02.11:496][281]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.09-02.02.11:559][281]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.09-02.02.11:559][281]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.09-02.02.11:559][281]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.09-02.02.11:559][281]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.09-02.02.11:559][281]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.09-02.02.11:559][281]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.09-02.02.11:560][281]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.09-02.02.11:561][281]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.09-02.02.11:791][281]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.09-02.02.11:792][281]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.09-02.02.11:792][281]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.09-02.02.11:792][281]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.09-02.02.11:792][281]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.09-02.02.11:793][281]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.09-02.02.11:793][281]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.09-02.02.11:793][281]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.09-02.02.11:793][281]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.09-02.02.11:793][281]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.09-02.02.11:793][281]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.09-02.02.11:793][281]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.09-02.02.11:893][281]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.09-02.02.11:994][281]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.09-02.02.11:994][281]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.09-02.02.11:994][281]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.09-02.02.11:994][281]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.09-02.02.11:994][281]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.09-02.02.11:994][281]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.09-02.02.11:995][281]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.09-02.02.11:996][281]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.09-02.02.11:998][281]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.09-02.02.11:999][281]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.09-02.02.12:011][281]LogDerivedDataCache: Shutdown
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.09-02.02.12:011][281]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.09-02.02.12:012][281]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.09-02.02.12:012][281]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.09-02.02.12:012][281]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.09-02.02.12:012][281]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E7A4DE3-4CD9-D898-183A-FCA30BDC408E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=c41f5ca548cb8ff0514e6e8ed5401053%7C86707eba29814c138d53ba0912e6f451%7C0c057754-6de3-4e57-8667-7bc2fb0f10e2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.09-02.02.12:039][281]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.09-02.02.12:041][281]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.09-02.02.12:041][281]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.09-02.02.12:041][281]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.09-02.02.12:041][281]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.09-02.02.12:041][281]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.09-02.02.12:041][281]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.09-02.02.12:041][281]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.09-02.02.12:042][281]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.09-02.02.12:045][281]LogExit: Exiting.
+[2017.12.09-02.02.12:053][281]Log file closed, 12/09/17 13:02:12
